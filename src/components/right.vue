@@ -84,6 +84,7 @@ export default {
     showtext: function () {
       mediator.$on("prevent", function () {
         stop = true;
+        console.log('153')
       });
       mediator.$on("tran", (todos, index) => {
         if (!stop) {
