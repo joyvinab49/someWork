@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import mediator from "../model/mediator";
 export default {
   name: "changeTypes",
   data() {

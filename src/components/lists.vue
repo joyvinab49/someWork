@@ -42,7 +42,6 @@
       </li>
       <br />
     </draggable>
-    <!-- <p>{{ message }}</p> -->
   </div>
 </template>
 
@@ -50,7 +49,6 @@
 import draggable from "vuedraggable";
 import toTop from "./toTop.vue";
 import Vue from "vue";
-import mediator from "../model/mediator";
 export default {
   name: "lists",
   components: {
